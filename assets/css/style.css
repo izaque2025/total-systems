@@ -109,7 +109,7 @@ nav ul li a:hover {
 }
 
 .hero {
-  background-image: url('/assets/img/.loja13.jpeg');
+  background-image: url('./assets/img/.loja13.jpeg');
   filter: grayscale(0%) brightness(80%);
   background-size: cover;
   background-position: center;
