@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/img/Imagem loja total.jpg">
+    <title>Agência de dinossauro</title>
+    <script src="https://kit.fontawesome.com/be3029c249.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+   
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="menu-icon" id="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <img src="./assets/img/Imagem loja total.jpg" alt="logo">
+        <p> queremao sua satisfação</p>
+    </header>
+
+    <!-- Menu Lateral -->
+    <nav id="nav">
+        <ul>
+            <li><a href="#" title="Início"><i class="fas fa-home"></i></a></li>
+            
+            <li><a href="#" title="Contato"><i class="fas fa-envelope"></i></a></li>
+             <a id="sube" href="#top">sube</a>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <div class="hero">
+            <h1>Total Systems</h1>
+            <p>Promoções de 20% imperdíveis</p>
+            <div class="search-form">
+                <input type="text" placeholder="Buscar">
+                
+                <select>
+                  <option>Cadegoria</option>
+                    <option>Infantil</option>
+                    <option>feminino</option>
+                    <option>masculino</option>
+                    <option>Roupas de esporte</option>
+                    <option>Calçados</option>
+                    <option>Meias</option>
+                    
+                </select>
+                <select>
+                    <option>Valores</option>
+                    <option>R$100 - R$350</option>
+                    <option>R$350 - R$500</option>
+                    <option>R$500 - R$670</option>
+                    <option>R$670+</option>
+                </select>
+                <button>Buscar</button>
+            </div>
+        </div>
+
+        <div class="destinos">
+            <!-- Destino 1 -->
+            <div class="destino">
+                <img src="./assets/img/tenis 1.avif" alt="Paris">
+                <h2>Tênis de corrida macio e durador</h2>
+                <p>Ver Mais</p>
+            </div>
+    
+            <!-- Destino 2 -->
+            <div class="destino">
+                <img src="./assets/img/tenis2.avif" alt="Tóquio">
+                <h2>Tênis para sair com seus amigos e com sua família</h2>
+                <p>Ver Mais</p>
+            </div>
+    
+            <!-- Destino 3 -->
+            <div class="destino">
+                <img src="./assets/img/camiseta1.jpeg">
+                <h2>Camisetas duradoura</h2>
+                <p>Ver Mais</p>
+            </div>
+    
+            <!-- Destino 4 -->
+            <div class="destino">
+                <img src="./assets/img/camiseta2.jpeg">
+                <h2>Camisetas com pinturas</h2>
+                <p>Ver Mas</p>
+            </div>
+    
+            <!-- Destino 5 -->
+            <div class="destino">
+                <img src="./assets/img/camiseta3.jpeg">
+                <h2>Camiseta de frio para não passar perrengue</h2>
+                <p>Ver Mas</p>
+            </div>
+    
+            <!-- Destino 6 -->
+            <div class="destino">
+                <img src="./assets/img/calça1.jpeg" alt="Sydney">
+                <h2>Calça jeans da melhor qualidade</h2>
+                <p>Ver Mas</p>
+            </div>
+    
+    
+             <!-- Destino 7 -->
+             <div class="destino">
+                <img src="./assets/img/bebe1.webp" alt="Rio de Janeiro">
+                <h2>Roupas infantis para o seu bebê da melhor qualidade</h2>
+                <p>Ver Mas</p>
+            </div>
+    
+          </div>
+                  
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados TRAVELTUR</p>
+        <div class="social">
+            <a href="#" title="Início"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#" title="Início"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#" title="Início"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href="#" title="Início"><i class="fa-brands fa-square-whatsapp"></i></a>
+            <a id="sube" href="#top">sube</a>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript para controlar o menu hamburger
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuIcon = document.getElementById('menu-icon');
+            const nav = document.getElementById('nav');
+
+            menuIcon.addEventListener('click', function() {
+                nav.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
